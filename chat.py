@@ -11,7 +11,7 @@ APP = Flask(__name__)
 PLAY = sync_playwright().start()
 BROWSER = PLAY.firefox.launch_persistent_context(
     user_data_dir="tmp",
-    headless=True,
+    headless=False,
 )
 PAGE = BROWSER.new_page()
 
@@ -96,15 +96,13 @@ def restart():
     PLAY = sync_playwright().start()
     BROWSER = PLAY.firefox.launch_persistent_context(
         user_data_dir="tmp",
-        headless=True,
+        headless=False,
     )
     PAGE = BROWSER.new_page()
     PAGE.goto("https://chat.openai.com/")
     return "Restarted API"
 
-
-
-if __name__ == "__main__":
+def run_project():
     PAGE.goto("https://chat.openai.com/")
     if not is_logged_in():
         print("Please log in to OpenAI Chat")
@@ -113,3 +111,6 @@ if __name__ == "__main__":
     else:
         print("Logged in")
         APP.run(port=8000, threaded=False)
+
+if __name__ == "__main__":
+    run_project()
