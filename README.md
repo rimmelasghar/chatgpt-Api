@@ -49,6 +49,40 @@ $ python3 chat.py
 Project will be available on
 ``http://127.0.0.1:8000``
 
+# API Reference
+
+#### Get Response
+
+```http
+  GET /chat
+```
+
+#### Post Response
+
+```http
+  POST /chat/${q}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `q`      | `string` | **Required**. message that you want to pass  |
+
+
+regenerate the Session
+```http
+  POST /regenerate/
+```
+
+reset the Session
+```http
+  POST /reset/
+```
+
+
+restart the Session
+```http
+  POST /restart/
+```
 
 
 # Feedback
