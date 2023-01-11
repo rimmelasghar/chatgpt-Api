@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <img src="https://staticg.sportskeeda.com/editor/2022/12/12ba3-16703270774402-1920.jpg" alt="Girl in a jacket" width="1000" height="250">
 
 # 🤖 ChatGpt API (Un-Official)
@@ -84,7 +86,13 @@ restart the Session
   POST /restart/
 ```
 
-
+# Demo
+These are the Demo of the Api.
+ - <a href="https://github.com/rimmelasghar/chatgpt-Api/blob/master/img/chatgpt-1.PNG">demo-1</a>
+ - <a href="https://github.com/rimmelasghar/chatgpt-Api/blob/master/img/chatgpt-2.PNG">demo-2</a>
+ - <a href="https://github.com/rimmelasghar/chatgpt-Api/blob/master/img/chatgpt-3.PNG">demo-3</a>
+ - <a href="https://github.com/rimmelasghar/chatgpt-Api/blob/master/img/chatgpt-4.PNG">demo-4</a>
+ - <a href="https://github.com/rimmelasghar/chatgpt-Api/blob/master/img/chatgpt-5.PNG">demo-5</a>
 # Feedback
 If you have any feedback, please reach out to me at  `rimmelasghar4@gmail.com` 
 
