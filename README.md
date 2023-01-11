@@ -98,5 +98,8 @@ If you have any feedback, please reach out to me at  `rimmelasghar4@gmail.com`
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-<br>
-Code by Rimmel with ❤
+
+```
+print('Code by Rimmel with ❤')
+```
+
